@@ -2,15 +2,18 @@
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:layout_width="match_parent" android:layout_height="match_parent">
 	<LinearLayoutWeighted android:id="@+id/view_columns"
-			android:layout_width="match_parent" android:layout_height="match_parent"
-			app:weightsEquals="true">
+			android:layout_width="match_parent" android:layout_height="match_parent">
 		<TextView android:id="@+id/text_left"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:paddingRight="8dp"/>
+				android:paddingRight="8dp"
+				android:layout_weight="1"/>
 		<TextView android:id="@+id/text_middle"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:paddingRight="8dp"/>
+				android:paddingRight="8dp"
+				android:layout_weight="1"/>
 		<TextView android:id="@+id/text_right"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:paddingRight="8dp"
+				android:layout_weight="1"/>
 	</LinearLayoutWeighted>
 </FrameLayout>	
