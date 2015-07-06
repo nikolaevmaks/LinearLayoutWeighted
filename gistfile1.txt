@@ -4,23 +4,14 @@
 	<LinearLayoutWeighted android:id="@+id/view_columns"
 			android:layout_width="match_parent" android:layout_height="wrap_content"
 			app:weightsEquals="true">
-		<TextView android:id="@+id/text_depart_time"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:paddingRight="8dp"
-				android:lineSpacingMultiplier="1.2"/>
-		<include layout="@layout/fare_travel_time" android:id="@+id/view_fare_travel_time"
+		<TextView android:id="@+id/text_left"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
 				android:paddingRight="8dp"/>
-		<TextView android:id="@+id/text_transfer_1"
+		<TextView android:id="@+id/text_middle"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:paddingRight="8dp"
-				android:lineSpacingMultiplier="1.2"/>
-		<TextView android:id="@+id/text_transfer_2"
+				android:paddingRight="8dp"/>
+		<TextView android:id="@+id/text_right"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:paddingRight="8dp"
-				android:lineSpacingMultiplier="1.2"/>
-		<TextView android:id="@+id/text_arrive_time"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:lineSpacingMultiplier="1.2"/>
+				android:paddingRight="8dp"/>
 	</LinearLayoutWeighted>
 </FrameLayout>	
