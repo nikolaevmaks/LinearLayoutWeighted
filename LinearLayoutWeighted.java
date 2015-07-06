@@ -1,5 +1,3 @@
-package com.anywayanyday.android.view.common;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
